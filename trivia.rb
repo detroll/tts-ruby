@@ -51,8 +51,8 @@ answers = ["madonna",
   "ben stiller", 
   "michael jackson"]
 
-qna_hash = Hash.new
-x = 0
+qna_hash = Hash.new  #making a new hash
+x = 0  #0 is the first part in the has
 while x < questions.length  #3length 
   qna_hash[questions[x]] = answers[x]
   x += 1
@@ -62,12 +62,13 @@ qna_hash.each do |key, value|  #key is question.  value is answer
   puts key #the typed in answer
   user_answer = gets.chomp.downcase  #gets answer from user
   if user_answer == value  #value is the answer
-    puts "Correct!"
+    puts "Correct!"  #putting /n/n right after "correct!" would skip a line down in program.  "puts "Correct!/n/n""
   else
     puts "Incorrect!"
   end
 end
-
+#different change
+#another comment for git and github
 
 
 
