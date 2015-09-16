@@ -15,10 +15,10 @@
 # end
 
 #3
-def to_do
-to_do = ["wash the car", "buy groceries", "finish homework", "pay the bills"]
-puts  "Don't forget to #{to_do(2)}.}"
-end
+# def to_do
+# to_do = ["wash the car", "buy groceries", "finish homework", "pay the bills"]
+# puts  "Don't forget to #{to_do(2)}.}"
+# end
 
 
 
@@ -37,6 +37,9 @@ end
 
 #7
 
+user1= {:firstname=> "Johnny", :lastname => "Begood", 
+   :gender => "male", :dob => "08/21/1981", 
+   :birthplace => "Seattle, WA"}
 #8
 
 

@@ -1,0 +1,28 @@
+rake -t 
+  gives you all the commands 
+
+
+
+
+  rails g scaffold Table_name field:datetype field:datatype
+
+
+  rake db:migrate
+  rake db:rollback
+
+
+
+-how to do irb in rails
+  rails c
+
+rails console
+rails new app_name
+cd app_name
+
+rails s
+  ctrl + c
+
+rails g controller  Welcome
+
+
+
